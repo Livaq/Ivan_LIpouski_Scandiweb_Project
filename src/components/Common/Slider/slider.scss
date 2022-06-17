@@ -1,0 +1,29 @@
+.slider__container{
+  height: 100%;
+  position: relative;
+
+  .slider__image{
+    width: 200px;
+    height: 100%;
+  }
+  .slider__arrows-container{
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+
+    .slider__arrow-btn{
+      width: 24px;
+      height: 24px;
+      background: transparent;
+      cursor: pointer;
+
+      img{
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.currency-menu__container{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  .currency-menu__currency-sign{
+    width: 11px;
+    height: 18px;
+    margin-right: 6px;
+  }
+
+  .currency-menu__drop-sign{
+    width: 8px;
+    height: 4px;
+    position: relative;
+    top: 2px;
+  }
+}

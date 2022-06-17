@@ -1,0 +1,23 @@
+.color-chart__container{
+  .color-chart__header{
+    font-family: 'Roboto Condensed', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  .color-chart__colors-container{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 35px;
+    .color-chart__color{
+      display: flex;
+      width: 32px;
+      height: 32px;
+      margin-right: 10px;
+      background: #D3D2D5;;
+    }
+  }
+}

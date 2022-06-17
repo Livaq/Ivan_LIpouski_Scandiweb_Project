@@ -1,0 +1,29 @@
+.quantity-selector__container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 24px;
+
+  .quantity-selector__btn {
+    background: transparent;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  .quantity-selector__quantity {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+  }
+}
+

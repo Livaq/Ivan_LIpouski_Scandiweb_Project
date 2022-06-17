@@ -1,0 +1,39 @@
+.size-chart__container{
+  .size-chart__header{
+    font-family: 'Roboto Condensed', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+
+  .size-chart__sizes-container{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 25px;
+
+    .size-chart__size{
+      font-family: 'Source Sans Pro', serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      display: flex;
+      width: 63px;
+      height: 45px;
+      border: 1px solid #1D1F22;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      margin-right: 10px;
+      letter-spacing: 0.05em;
+    }
+    .size-selected{
+      background: #1D1F22;
+      color: #ffffff;
+    }
+  }
+}
